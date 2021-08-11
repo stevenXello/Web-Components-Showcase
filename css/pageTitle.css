@@ -1,5 +1,6 @@
 @import "designTokens.css";
 
 h1 {
-  font-family: var(--typography-page-title-student-font-family);
+    font-family: var(--typography-page-title-student-font-family);
+    font-size: 56px;
 }
