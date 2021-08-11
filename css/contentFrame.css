@@ -1,12 +1,10 @@
-@import "design-tokens.css";
-
 * {
     margin: 0;
     padding: 0;
     max-width: 1366px;
 }
 
-.feedback-frame {
+.content-frame {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -16,17 +14,17 @@
     border-radius: 5px;
 }
 
-.feedback-icon {
+.content-icon {
     width: 24px;
     height: 24px;
     padding-left: 20px;
 }
 
-.feedback-body {
+.content-body {
     padding-left: 10px;
 }
 
-.feedback-text {
+.content-text {
     font-family: var(--typography-base-medium-font-family);
     font-style: normal;
     font-weight: var(--typography-base-medium-font-weight);
