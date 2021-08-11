@@ -1,0 +1,36 @@
+@import "design-tokens.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1366px;
+}
+
+.content-frame {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 72px;
+    border: 1px solid #e1e1e1;
+    border-top: 2px solid #26afdf;
+    border-radius: 5px;
+}
+
+.content-icon {
+    width: 24px;
+    height: 24px;
+    padding-left: 20px;
+}
+
+.content-body {
+    padding-left: 10px;
+}
+
+.content-text {
+    font-family: var(--typography-base-medium-font-family);
+    font-style: normal;
+    font-weight: var(--typography-base-medium-font-weight);
+    font-size: var(--typography-base-medium-font-size);
+    line-height: var(--typography-base-medium-line-height);
+    color: #484848;
+}

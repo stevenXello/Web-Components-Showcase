@@ -20,16 +20,33 @@
                 <page-title title="Awarded Students"></page-title>
                 <xello-button value="Add New Students"></xello-button>
             </div>
-            <content-frame
+            <feedback-banner
                 title="This is just a page template demo"
-                imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-bulb.svg"
+                avatar="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-fun.svg"
             >
-            </content-frame>
+            </feedback-banner>
+            <div class="content-block-container">
+                <content-block
+                    title="This is just a test"
+                    text="Description"
+                    imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-bulb.svg"
+                >
+                </content-block>
+                <content-block
+                    title="This is just a test"
+                    text="Description"
+                    imgCdn="https://devimg.careercruising.com/res/xsg-images/xsg-il-light-bulb.svg"
+                ></content-block>
+            </div>
+            <!-- <content-block title="One More Content Block" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-il-parents.svg"></content-block>
+            <content-block title="Two More Content Blocks" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-heart-shine.svg"></content-block>
+            <content-block title="Thimo" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-hand-palm.svg"></content-block> -->
         </div>
         <!-- End of Main Content -->
 
         <!-- Importing Web Components -->
-        <script type="module" src="src/contentFrame.js"></script>
+        <script type="module" src="src/contentBlock.js"></script>
+        <script type="module" src="src/feedbackBanner.js"></script>
         <script type="module" src="src/pageTitle.js"></script>
         <script type="module" src="src/myNav.js"></script>
         <script type="module" src="src/xelloButton.js"></script>

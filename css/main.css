@@ -16,3 +16,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.content-block-container {
+    display: flex;
+    margin-top: 64px;
+}
