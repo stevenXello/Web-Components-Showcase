@@ -25,6 +25,14 @@ class ContentBlock extends HTMLElement {
         this.shadowRoot.querySelector("h2").innerText =
             this.getAttribute("title");
         this.shadowRoot.querySelector("img").src = this.getAttribute("imgCdn");
+
+        if (this.getAttribute("imgCdn").includes(".png")) {
+            console.log(this.getAttribute("imgCdn"));
+
+            console.log(this.shadowRoot.querySelector("img").classList);
+        } else {
+            console.log("hello");
+        }
     }
 }
 customElements.define("content-block", ContentBlock);
