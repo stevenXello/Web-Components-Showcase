@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Components Showcase</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Components Showcase</title>
-    <link rel="stylesheet" href="css/main.css" />
-</head>
+    <body>
+        <!-- Top Nav Bar -->
+        <my-nav
+            imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-fun.svg"
+        ></my-nav>
 
-<body>
-
-    <!-- Top Nav Bar -->
-    <my-nav imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-fun.svg"></my-nav>
-
-    <!-- Main Content-->
-    <div class="pageWrapper">
-        <br></br>
-        <content-frame 
-        title="This is just a page template demo"
-        imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-bulb.svg">
-        </content-frame>
-
-        <div class="titleContainer">
-            <page-title title="Awarded Students"></page-title>
-            <xello-button value="Add New Students"></xello-button>
+        <!-- Main Content-->
+        <div class="pageWrapper">
+            <div class="titleContainer">
+                <page-title title="Awarded Students"></page-title>
+                <xello-button value="Add New Students"></xello-button>
+            </div>
+            <content-frame
+                title="This is just a page template demo"
+                imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-bulb.svg"
+            >
+            </content-frame>
         </div>
-    </div>
-    <!-- End of Main Content -->
+        <!-- End of Main Content -->
 
-    <!-- Importing Web Components -->
-    <script type="module" src="src/contentFrame.js"></script>
-    <script type="module" src="src/pageTitle.js"></script>
-    <script type="module" src="src/myNav.js"></script>
-    <script type="module" src="src/xelloButton.js"></script>
-
-</body>
-
+        <!-- Importing Web Components -->
+        <script type="module" src="src/contentFrame.js"></script>
+        <script type="module" src="src/pageTitle.js"></script>
+        <script type="module" src="src/myNav.js"></script>
+        <script type="module" src="src/xelloButton.js"></script>
+    </body>
 </html>

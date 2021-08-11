@@ -1,9 +1,9 @@
 @import "designTokens";
 
 button {
-  padding: 12px 16px;
-  border-radius: 80px;
-  color: white;
-  background-color: #027baf;
-  border: none;
+    padding: 12px 16px;
+    border-radius: 80px;
+    color: white;
+    background-color: #027baf;
+    border: none;
 }
