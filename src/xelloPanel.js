@@ -9,6 +9,9 @@ template.innerHTML = `
         <div class="panel-line"></div>
         <p class="panel-subtitle"></p>
     </div>
+    <div class="panel-button">
+        <button>View All Students</button>
+    </div>
 `;
 
 class XelloPanel extends HTMLElement {
