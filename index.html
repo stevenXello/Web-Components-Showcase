@@ -41,11 +41,19 @@
             <!-- <content-block title="One More Content Block" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-il-parents.svg"></content-block>
             <content-block title="Two More Content Blocks" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-heart-shine.svg"></content-block>
             <content-block title="Thimo" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-hand-palm.svg"></content-block> -->
-            <content-block
-                title="Alex"
-                imgCdn="./Photo.png"
-            >
-            </content-block>
+            <div class="content-panel-container">
+                <xello-panel
+                    title="Top 5 Students"
+                    subtitle="These are the most awarded students in 2021"
+                >
+                </xello-panel>
+                <content-block
+                    title="Alex"
+                    imgCdn="./Photo.png"
+                >
+                </content-block>
+                
+            </div>
         </div>
         <!-- End of Main Content -->
 
@@ -55,5 +63,6 @@
         <script type="module" src="src/pageTitle.js"></script>
         <script type="module" src="src/myNav.js"></script>
         <script type="module" src="src/xelloButton.js"></script>
+        <script type="module" src="src/xelloPanel.js"></script>
     </body>
 </html>
