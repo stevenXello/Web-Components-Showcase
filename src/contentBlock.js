@@ -9,7 +9,8 @@ template.innerHTML = `
         <div class="content-body">
             <h2 class="content-title">
             </h2>
-            <h3 class="content-text"></h3>
+            <h3 class="content-text">
+            </h3>
         </div>
     </div>
 `;
@@ -20,6 +21,10 @@ class ContentBlock extends HTMLElement {
 
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
+
+    }
+
+    connectedCallback() {
         this.shadowRoot.querySelector("h3").innerText =
             this.getAttribute("text");
         this.shadowRoot.querySelector("h2").innerText =
