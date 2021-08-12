@@ -2,7 +2,46 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <style>
-        @import url('css/xelloPanel.css')
+        
+.panel-frame {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #aeaeae;
+    border-top: 8px solid #26afdf;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.panel-line {
+    margin: 16px;
+    width: 1px;
+    height: 32px;
+    background-color: #cccc;
+}
+
+.panel-title {
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.panel-subtitle {
+    color: #737373;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.panel-button button {
+    position: static;
+    background-color: #fafafa;
+    border: 1px solid #cccc;
+    align-self: stretch;
+    width: 1312px;
+    height: 32px;
+}
+
     </style>
     <div class="panel-frame">
         <p class="panel-title"></p>

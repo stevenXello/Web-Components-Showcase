@@ -2,7 +2,14 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <style>
-        @import url('css/xelloButton.css')
+    button {
+        padding: 12px 16px;
+        border-radius: 80px;
+        color: white;
+        background-color: #027baf;
+        border: none;
+    }
+    
     </style>
    <button id="btnClick"></button>
 `;
