@@ -13,8 +13,6 @@ class XelloButton extends HTMLElement {
 
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
-        this.shadowRoot.querySelector("button").innerText =
-            this.getAttribute("value");
     }
 
     //button onclick function
@@ -27,6 +25,8 @@ class XelloButton extends HTMLElement {
         this.shadowRoot
             .querySelector("#btnClick")
             .addEventListener("click", () => this.testClick());
+        this.shadowRoot.querySelector("button").innerText =
+            this.getAttribute("value");
     }
 
     //removing event listener on the button

@@ -50,14 +50,16 @@ template.innerHTML = `
 `;
 
 class MyNav extends HTMLElement {
-  constructor() {
-    //always call super first in the constructor
-    super();
-    //using the shadow dom, clone the template into the shadow root
-    const shadowRoot = this.attachShadow({ mode: "open" });
-    shadowRoot.appendChild(template.content.cloneNode(true));
-    this.shadowRoot.querySelector("img").src = this.getAttribute("imgCdn");
-  }
+    constructor() {
+        //always call super first in the constructor
+        super();
+        //using the shadow dom, clone the template into the shadow root
+        const shadowRoot = this.attachShadow({ mode: "open" });
+        shadowRoot.appendChild(template.content.cloneNode(true));
+    }
+    connectedCallback() {
+        this.shadowRoot.querySelector("img").src = this.getAttribute("imgCdn");
+    }
 }
 
 customElements.define("my-nav", MyNav);

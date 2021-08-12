@@ -8,12 +8,15 @@ template.innerHTML = `
 `;
 
 class PageTitle extends HTMLElement {
-  constructor() {
-    super();
+    constructor() {
+        super();
 
-    this.attachShadow({ mode: "open" });
-    this.shadowRoot.appendChild(template.content.cloneNode(true));
-    this.shadowRoot.querySelector("h1").innerText = this.getAttribute("title");
-  }
+        this.attachShadow({ mode: "open" });
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
+    }
+    connectedCallback() {
+        this.shadowRoot.querySelector("h1").innerText =
+            this.getAttribute("title");
+    }
 }
 customElements.define("page-title", PageTitle);
