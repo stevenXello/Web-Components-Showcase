@@ -2,7 +2,10 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <style>
-        @import url('css/pageTitle.css')
+    h1 {
+      font-family: var(--typography-page-title-student-font-family);
+      font-size: var(  --typography-page-title-student-font-size);
+  }
     </style>
    <h1></h1>
 `;

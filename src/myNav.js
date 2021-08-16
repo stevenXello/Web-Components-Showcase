@@ -3,7 +3,64 @@ const template = document.createElement("template");
 template.innerHTML = `
 
 <style>
-@import url('css/myNav.css')
+.header-container {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  height: 56px;
+}
+
+.xello-logo {
+  position: absolute;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+}
+
+.nav-options {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: 24px;
+}
+
+.nav-options ul li {
+  display: inline-block;
+  flex: 1;
+  color: #aeaeae;
+  font-size: var(--font-sizes-md);
+  font-family: var(--font-families-standard);
+  font-weight: var(--font-weights-normal);
+  line-height: var(--line-heights-sm);
+  align-items: center;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 24px;
+}
+
+.nav-icons ul li {
+  display: inline-block;
+  flex: 1;
+  fill: #aeaeae;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 24px;
+  white-space: nowrap;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #aeaeae;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
 </style>
 
 <div class="header-container">
