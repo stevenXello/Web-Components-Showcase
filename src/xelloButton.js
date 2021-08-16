@@ -42,3 +42,4 @@ class XelloButton extends HTMLElement {
     }
 }
 customElements.define("xello-button", XelloButton);
+export default XelloButton;

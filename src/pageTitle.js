@@ -23,3 +23,4 @@ class PageTitle extends HTMLElement {
     }
 }
 customElements.define("page-title", PageTitle);
+export default PageTitle;

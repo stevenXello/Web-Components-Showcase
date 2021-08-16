@@ -97,6 +97,6 @@ class XelloPanel extends HTMLElement {
     }
 }
 customElements.define("xello-panel", XelloPanel);
-
+export default XelloPanel;
 //nested elements threads
 // https://github.com/lit/lit-element/issues/824#issuecomment-535980714
