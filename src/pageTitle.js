@@ -4,7 +4,7 @@ template.innerHTML = `
     <style>
     h1 {
       font-family: var(--typography-page-title-student-font-family);
-      font-size: 56px;
+      font-size: var(  --typography-page-title-student-font-size);
   }
     </style>
    <h1></h1>
