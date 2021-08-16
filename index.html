@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Components Showcase</title>
+
+        <!-------- Importing Stylesheet -------->
+
+        <!-- Direct Import -->
+        <!-- <link rel="stylesheet" href="css/main.css" /> -->
+
+        <!-- CDN Import -->
+        <link
+            rel="stylesheet"
+            href="https://cc3cdndev.blob.core.windows.net/xsg/css/main.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cc3cdndev.blob.core.windows.net/xsg/css/designTokens.css"
+        />
+    </head>
+
+    <body>
+        <!-- Top Nav Bar -->
+        <my-nav
+            imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-fun.svg"
+        ></my-nav>
+
+        <!-- Main Content-->
+        <div class="pageWrapper">
+            <div class="titleContainer">
+                <page-title title="Awarded Students"></page-title>
+                <xello-button value="Add New Students"></xello-button>
+            </div>
+            <feedback-banner
+                title="This is just a page template demo"
+                avatar="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-fun.svg"
+            >
+            </feedback-banner>
+            <div class="content-block-container">
+                <content-block
+                    title="This is just a test"
+                    text="Description"
+                    imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-bulb.svg"
+                >
+                    <span slot="title">This is just a test</span>
+                    <span slot="body">This is just a test</span>
+                </content-block>
+                <content-block
+                    title="This is just a test"
+                    text="Description"
+                    imgCdn="https://devimg.careercruising.com/res/xsg-images/xsg-il-light-bulb.svg"
+                ></content-block>
+            </div>
+            <!-- <content-block title="One More Content Block" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-il-parents.svg"></content-block>
+            <content-block title="Two More Content Blocks" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-heart-shine.svg"></content-block>
+            <content-block title="Thimo" text="Description" imgCdn="https://cc3cdndev.blob.core.windows.net/xsg-images/xsg-ic-hand-palm.svg"></content-block> -->
+            <div class="content-panel-container">
+                <xello-panel
+                    title="Top 5 Students"
+                    subtitle="These are the most awarded students in 2021"
+                >
+                    <span slot="testSlot">
+                        <content-block title="Alex" imgCdn="./Photo.png">
+                        </content-block
+                    ></span>
+                </xello-panel>
+                <content-block title="Alex" imgCdn="./Photo.png">
+                </content-block>
+            </div>
+        </div>
+        <!-- End of Main Content -->
+
+        <!-------- Importing Web Components -------->
+
+        <!-- Direct Import -->
+
+        <script type="module" src="src/contentBlock.js"></script>
+        <!-- <script type="module" src="src/feedbackBanner.js"></script> -->
+        <!-- <script type="module" src="src/pageTitle.js"></script> -->
+        <!-- <script type="module" src="src/myNav.js"></script> -->
+        <!-- <script type="module" src="src/xelloButton.js"></script> -->
+        <!-- <script type="module" src="src/xelloPanel.js"></script>  -->
+
+
+        <!-- CDN Import -->
+        <!-- <script
+            type="module"
+            src="https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js"
+        ></script> -->
+        <script
+            type="module"
+            src="https://cc3cdndev.blob.core.windows.net/xsg/src/feedbackBanner.js"
+        ></script>
+        <script
+            type="module"
+            src="https://cc3cdndev.blob.core.windows.net/xsg/src/pageTitle.js"
+        ></script>
+        <script
+            type="module"
+            src="https://cc3cdndev.blob.core.windows.net/xsg/src/myNav.js"
+        ></script>
+        <script
+            type="module"
+            src="https://cc3cdndev.blob.core.windows.net/xsg/src/xelloButton.js"
+        ></script>
+        <script
+            type="module"
+            src="https://cc3cdndev.blob.core.windows.net/xsg/src/xelloPanel.js"
+        ></script>
+    </body>
+</html>
