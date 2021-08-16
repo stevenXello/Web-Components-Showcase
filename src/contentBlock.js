@@ -50,6 +50,7 @@ template.innerHTML = `
     </div>
 `;
 
+// Creates a new custom HTML element by extending the base HTMLElement
 class ContentBlock extends HTMLElement {
     constructor() {
         super();
@@ -74,5 +75,6 @@ class ContentBlock extends HTMLElement {
         }
     }
 }
-customElements.define("content-block", ContentBlock);
+// Defines the name for the new custome HTML element
+window.customElements.define("content-block", ContentBlock);
 export default ContentBlock;
