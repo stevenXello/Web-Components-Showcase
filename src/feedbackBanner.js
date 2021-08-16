@@ -55,4 +55,3 @@ class FeedbackBanner extends HTMLElement {
     }
 }
 customElements.define("feedback-banner", FeedbackBanner);
-export default FeedbackBanner;

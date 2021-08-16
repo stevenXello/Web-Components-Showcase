@@ -77,4 +77,3 @@ class ContentBlock extends HTMLElement {
 }
 // Defines the name for the new custome HTML element
 window.customElements.define("content-block", ContentBlock);
-export default ContentBlock;
