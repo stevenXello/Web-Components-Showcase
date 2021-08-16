@@ -60,14 +60,9 @@ class XelloPanel extends HTMLElement {
         super();
 
         this.attachShadow({ mode: "open" });
-    }
-    createRenderRoot() {
-        const contentWrapper = document.createElement("div");
-        this.appendChild(contentWrapper);
-        return contentWrapper;
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
     connectedCallback() {
-        this.createRenderRoot();
         this.shadowRoot.querySelector(".panel-title").innerText =
             this.getAttribute("title");
         this.shadowRoot.querySelector(".panel-subtitle").innerText =
