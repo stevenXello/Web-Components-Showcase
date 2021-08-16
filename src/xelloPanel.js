@@ -3,12 +3,18 @@ const template = document.createElement("template");
 template.innerHTML = `
     <style>
         
-.panel-frame {
+
+.panel-container {
+        border: 1px solid #aeaeae;
+        border-top: 8px solid #26afdf;
+        border-radius: 4px 4px 0px 0px;
+}
+
+
+.panel-header {
     display: flex;
     justify-content: flex-start;
-    border: 1px solid #aeaeae;
-    border-top: 8px solid #26afdf;
-    border-radius: 4px 4px 0px 0px;
+    border-bottom: 1px solid #cccc;
 }
 
 .panel-line {
@@ -48,8 +54,11 @@ template.innerHTML = `
     transform: translateY(4px);
 }
 
-    </style>
-    <div class="panel-frame">
+</style>
+
+
+    <div class="panel-container">
+    <div class="panel-header">
         <p class="panel-title"></p>
         <div class="panel-line"></div>
         <p class="panel-subtitle"></p>
@@ -60,13 +69,16 @@ template.innerHTML = `
     <div class="panel-button">
         <button id="panelBtn">View All Students</button>
     </div>
+    </div>
 `;
 
 class XelloPanel extends HTMLElement {
     constructor() {
         super();
 
-        this.attachShadow({ mode: "open" });
+        this.attachShadow({
+            mode: "open",
+        });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
