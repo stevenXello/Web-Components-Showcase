@@ -37,7 +37,6 @@ template.innerHTML = `
     position: static;
     background-color: #fafafa;
     border: 1px solid #cccc;
-    align-self: stretch;
     width: 1312px;
     height: 32px;
 }
@@ -47,6 +46,9 @@ template.innerHTML = `
         <p class="panel-title"></p>
         <div class="panel-line"></div>
         <p class="panel-subtitle"></p>
+    </div>
+    <div class="panel-slot">
+        <slot name="testSlot"></slot>
     </div>
     <div class="panel-button">
         <button>View All Students</button>
@@ -58,9 +60,14 @@ class XelloPanel extends HTMLElement {
         super();
 
         this.attachShadow({ mode: "open" });
-        this.shadowRoot.appendChild(template.content.cloneNode(true));
+    }
+    createRenderRoot() {
+        const contentWrapper = document.createElement("div");
+        this.appendChild(contentWrapper);
+        return contentWrapper;
     }
     connectedCallback() {
+        this.createRenderRoot();
         this.shadowRoot.querySelector(".panel-title").innerText =
             this.getAttribute("title");
         this.shadowRoot.querySelector(".panel-subtitle").innerText =
@@ -68,3 +75,7 @@ class XelloPanel extends HTMLElement {
     }
 }
 customElements.define("xello-panel", XelloPanel);
+export default XelloPanel;
+
+//nested elements threads
+// https://github.com/lit/lit-element/issues/824#issuecomment-535980714

@@ -120,3 +120,4 @@ class MyNav extends HTMLElement {
 }
 
 customElements.define("my-nav", MyNav);
+export default MyNav;

@@ -75,3 +75,4 @@ class ContentBlock extends HTMLElement {
     }
 }
 customElements.define("content-block", ContentBlock);
+export default ContentBlock;
