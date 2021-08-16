@@ -55,4 +55,3 @@ class ContentFrame extends HTMLElement {
     }
 }
 customElements.define("content-frame", ContentFrame);
-export default ContentFrame;

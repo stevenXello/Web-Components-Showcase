@@ -75,17 +75,20 @@ class ContentBlock extends HTMLElement {
 
         // If the image provided in the imgCdn attribute is a png...
         if (this.getAttribute("imgCdn").includes(".png")) {
-
             // If the text contains ".png" then remove the class "content-icon" and add the class "content-icon1"
-            this.shadowRoot.querySelector("img").classList.toggle("content-icon", false);
-            this.shadowRoot.querySelector("img").classList.toggle("content-icon1", true);
-
+            this.shadowRoot
+                .querySelector("img")
+                .classList.toggle("content-icon", false);
+            this.shadowRoot
+                .querySelector("img")
+                .classList.toggle("content-icon1", true);
         } else {
             // If the text does not contain ".png", then add the "content-icon" class
-            this.shadowRoot.querySelector("img").classList.toggle("content-icon", true);
+            this.shadowRoot
+                .querySelector("img")
+                .classList.toggle("content-icon", true);
         }
     }
 }
 // Defines the name for the new custom HTML element
 window.customElements.define("content-block", ContentBlock);
-export default ContentBlock;
