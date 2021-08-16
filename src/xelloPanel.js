@@ -15,30 +15,37 @@ template.innerHTML = `
     margin: 16px;
     width: 1px;
     height: 32px;
-    background-color: #cccc;
+    background-color: var(--colors-text-light-mode-secondary);
 }
 
 .panel-title {
     margin-top: 16px;
     margin-left: 24px;
-    font-size: 24px;
+    font-family: var(--typography-base-large-font-family);
+    font-size: var(--typography-base-large-font-size);
     font-style: normal;
-    font-weight: bold;
-    line-height: 32px;
+    font-weight: var(--typography-page-title-student-font-weight);
+    line-height: var(--typography-base-large-line-height);
 }
 
 .panel-subtitle {
-    color: #737373;
-    font-size: 18px;
-    line-height: 24px;
+    font-family: var(--typography-base-medium-font-family);
+    color: var(--colors-text-light-mode-secondary);
+    font-size: var(--typography-base-medium-font-size);
+    line-height: var(--typography-base-medium-line-height);
 }
 
 .panel-button button {
+    font-family: var(--typography-base-medium-font-family);
     position: static;
     background-color: #fafafa;
     border: 1px solid #cccc;
     width: 1312px;
     height: 32px;
+}
+
+.panel-button button:active {
+    transform: translateY(4px);
 }
 
     </style>
@@ -51,7 +58,7 @@ template.innerHTML = `
         <slot name="testSlot"></slot>
     </div>
     <div class="panel-button">
-        <button>View All Students</button>
+        <button id="panelBtn">View All Students</button>
     </div>
 `;
 
@@ -62,11 +69,19 @@ class XelloPanel extends HTMLElement {
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
+
+    testClick() {
+        console.log("panel has been clicked");
+    }
+
     connectedCallback() {
         this.shadowRoot.querySelector(".panel-title").innerText =
             this.getAttribute("title");
         this.shadowRoot.querySelector(".panel-subtitle").innerText =
             this.getAttribute("subtitle");
+        this.shadowRoot
+            .querySelector("#panelBtn")
+            .addEventListener("click", () => this.testClick());
     }
 }
 customElements.define("xello-panel", XelloPanel);

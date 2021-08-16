@@ -24,7 +24,7 @@ class XelloButton extends HTMLElement {
 
     //button onclick function
     testClick() {
-        console.log("test123");
+        console.log("button has been clicked");
     }
 
     //adding event listener to the button
