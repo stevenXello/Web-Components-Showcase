@@ -22,10 +22,22 @@ For example, https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js wil
 
 Current List of Components:
 - [contentBlock](https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js)
+    Attributes Available: 
+    - text
+    - title
+    - imgCdn
 - [feedbackBanner](https://cc3cdndev.blob.core.windows.net/xsg/src/feedbackBanner.js)
+    Attributes Available: 
+    - title
 - [myNav](https://cc3cdndev.blob.core.windows.net/xsg/src/myNav.js)
+    Attributes Available: 
+    - imgCdn
 - [pageTitle](https://cc3cdndev.blob.core.windows.net/xsg/src/pageTitle.js)
+    Attributes Available: 
+    - title
 - [xelloButton](https://cc3cdndev.blob.core.windows.net/xsg/src/xelloButton.js)
+    Attributes Available: 
+    - value
 
 ## Improvements to Make
 * Using BEM for Styling
