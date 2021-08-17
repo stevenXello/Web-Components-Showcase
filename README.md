@@ -1,9 +1,6 @@
 # Web-Components-Showcase
 ## Xello Design System - Proof of Concept 
 
-
-### This repo will be showcasing the Xello Design System's Usage of Web Components, and Design Tokens.
-
 ### The code will serve as a source of truth demonstrating the connection between:
 Design Tokens \
 Web Components
@@ -12,6 +9,7 @@ Web Components
 https://docs.google.com/document/d/1-HS78ZZP3eh4PqupmoDMriP_QyuMNMd_ImgJTciSf4c/edit
 
 ## How to Use these Web Components in React
+Stay Tuned...
 
 ## Available Web Components
 Each Web Component is hosted on a CDN that begins like this: https://cc3cdndev.blob.core.windows.net/xsg/src/. \
@@ -21,21 +19,21 @@ To access a Web Component simply append the component name with the ".js" file n
 For example, https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js will retrieve the "Content Block" web component. 
 
 Current List of Components:
-- [contentBlock](https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js) \
+[contentBlock](https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js) \
     Attributes Available: 
     - text
     - title
     - imgCdn
-- [feedbackBanner](https://cc3cdndev.blob.core.windows.net/xsg/src/feedbackBanner.js) \
+[feedbackBanner](https://cc3cdndev.blob.core.windows.net/xsg/src/feedbackBanner.js) \
     Attributes Available: 
     - title
-- [myNav](https://cc3cdndev.blob.core.windows.net/xsg/src/myNav.js) \
+[myNav](https://cc3cdndev.blob.core.windows.net/xsg/src/myNav.js) \
     Attributes Available: 
     - imgCdn
-- [pageTitle](https://cc3cdndev.blob.core.windows.net/xsg/src/pageTitle.js) \
+[pageTitle](https://cc3cdndev.blob.core.windows.net/xsg/src/pageTitle.js) \
     Attributes Available: 
     - title
-- [xelloButton](https://cc3cdndev.blob.core.windows.net/xsg/src/xelloButton.js) \
+[xelloButton](https://cc3cdndev.blob.core.windows.net/xsg/src/xelloButton.js) \
     Attributes Available: 
     - value
 
