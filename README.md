@@ -14,9 +14,9 @@ https://docs.google.com/document/d/1-HS78ZZP3eh4PqupmoDMriP_QyuMNMd_ImgJTciSf4c/
 ## How to Use these Web Components in React
 
 ## Available Web Components
-Each Web Component is hosted on a CDN that begins like this: https://cc3cdndev.blob.core.windows.net/xsg/src/
-To access a Web Component simply append the component name to the end of the CDN url with the ".js" file name suffix.
-For example, https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js will retrieve the "Content Block" web component.
+Each Web Component is hosted on a CDN that begins like this: https://cc3cdndev.blob.core.windows.net/xsg/src/ \
+To access a Web Component simply append the component name to the end of the CDN url with the ".js" file name suffix. \
+For example, https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js will retrieve the "Content Block" web component. \
 
 Current List of Components:
 * contentBlock
