@@ -21,11 +21,11 @@ To access a Web Component simply append the component name with the ".js" file n
 For example, https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js will retrieve the "Content Block" web component. 
 
 Current List of Components:
-* contentBlock
-* feedbackBanner
-* myNav
-* pageTitle
-* xelloButton
+- [contentBlock](https://cc3cdndev.blob.core.windows.net/xsg/src/contentBlock.js)
+- [feedbackBanner](https://cc3cdndev.blob.core.windows.net/xsg/src/feedbackBanner.js)
+- [myNav](https://cc3cdndev.blob.core.windows.net/xsg/src/myNav.js)
+- [pageTitle](https://cc3cdndev.blob.core.windows.net/xsg/src/pageTitle.js)
+- [xelloButton](https://cc3cdndev.blob.core.windows.net/xsg/src/xelloButton.js)
 
 ## Improvements to Make
 * Using BEM for Styling
