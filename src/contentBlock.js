@@ -16,10 +16,11 @@ template.innerHTML = `
         padding-left: 20px;
     }
 
-    .content-icon1 {
+    .content-icon-png {
         width: 20px;
         height: 20px;
         padding-left: 20px;
+        
     }
     
     .content-body {
@@ -80,7 +81,7 @@ class ContentBlock extends HTMLElement {
         if (this.getAttribute("imgCdn").includes(".png")) {
             // If the text contains ".png" then remove the class "content-icon" and add the class "content-icon1"
             this.shadowRoot.querySelector("img").classList.toggle("content-icon", false);
-            this.shadowRoot.querySelector("img").classList.toggle("content-icon1", true);
+            this.shadowRoot.querySelector("img").classList.toggle("content-icon-png", true);
         } else {
             // If the text does not contain ".png", then add the "content-icon" class
             this.shadowRoot.querySelector("img").classList.toggle("content-icon", true);
