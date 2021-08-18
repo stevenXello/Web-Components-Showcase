@@ -27,6 +27,7 @@ template.innerHTML = `
         font-size: var(--typography-base-medium-font-size);
         line-height: var(--typography-base-medium-line-height);
         color: var(--colors-text-light-mode-primary);
+        margin: 0;
     }
     
     .content-text {
@@ -36,6 +37,7 @@ template.innerHTML = `
         font-size: var(--typography-base-small-font-size);
         line-height: var(--typography-base-small-line-height);
         color: var(--colors-text-light-mode-secondary);
+        margin: 0;
     }
     
     </style>
