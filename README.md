@@ -9,7 +9,7 @@ Web Components
 https://docs.google.com/document/d/1-HS78ZZP3eh4PqupmoDMriP_QyuMNMd_ImgJTciSf4c/edit
 
 ## How to Use these Web Components in React
-Stay Tuned...
+https://docs.google.com/document/d/1vAII4wo2drAFrz_wPG6pY4e2FM1gq_zaNOUyUdjT5iI/edit?usp=sharing
 
 ## Available Web Components
 Each Web Component is hosted on a CDN that begins like this: https://cc3cdndev.blob.core.windows.net/xsg/src/. \
