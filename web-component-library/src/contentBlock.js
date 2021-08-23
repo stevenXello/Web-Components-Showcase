@@ -86,7 +86,21 @@ class ContentBlock extends HTMLElement {
             // If the text does not contain ".png", then add the "content-icon" class
             this.shadowRoot.querySelector("img").classList.toggle("content-icon", true);
         }
+        
     }
+
+    static get observedAttributes() {
+        return ['title', 'text'];
+      }
+    
+      attributeChangedCallback(name, oldValue, newValue) {
+        if (name == 'title') {
+          this.shadowRoot.querySelector("h2").innerText = newValue;
+        }
+        if (name == 'text') {
+          this.shadowRoot.querySelector("h3").innerText = newValue;
+        }
+      }
 }
 // Defines the name for the new custom HTML element
 window.customElements.define("content-block", ContentBlock);

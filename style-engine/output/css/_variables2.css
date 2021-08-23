@@ -1,0 +1,57 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 29 Jul 2021 19:39:38 GMT
+ */
+
+:root {
+  --colors-actions-light-mode-primary: #027baf;
+  --colors-text-light-mode-primary: #484848;
+  --colors-text-light-mode-secondary: #737373;
+  --font-families-standard: Proxima Nova;
+  --line-heights-xxlg: 64px;
+  --line-heights-xxsm: 16px;
+  --line-heights-sm: 24px;
+  --line-heights-md: 32px;
+  --font-weights-bold: 700;
+  --font-weights-normal: 400;
+  --font-sizes-xxxlg: 56px;
+  --font-sizes-lg: 24px;
+  --font-sizes-md: 18px;
+  --font-sizes-sm: 14px;
+  --font-sizes-xsm: 12px;
+  --letter-spacing-null: 0;
+  --paragraph-spacing-xxlg: 64px;
+  --paragraph-spacing-md: 32px;
+  --paragraph-spacing-sm: 24px;
+  --paragraph-spacing-xxsm: 16px;
+  --typography-page-title-student-font-family: $font-families-standard;
+  --typography-page-title-student-font-weight: $font-weights-bold;
+  --typography-page-title-student-line-height: $line-heights-xxlg;
+  --typography-page-title-student-font-size: $font-sizes-xxxlg;
+  --typography-page-title-student-letter-spacing: $letter-spacing-null;
+  --typography-page-title-student-paragraph-spacing: $paragraph-spacing-xxlg;
+  --typography-base-large-font-family: $font-families-standard;
+  --typography-base-large-font-weight: $font-weights-normal;
+  --typography-base-large-line-height: $line-heights-md;
+  --typography-base-large-font-size: $font-sizes-lg;
+  --typography-base-large-letter-spacing: $letter-spacing-null;
+  --typography-base-large-paragraph-spacing: $paragraph-spacing-md;
+  --typography-base-medium-font-family: $font-families-standard;
+  --typography-base-medium-font-weight: $font-weights-normal;
+  --typography-base-medium-line-height: $line-heights-sm;
+  --typography-base-medium-font-size: $font-sizes-md;
+  --typography-base-medium-letter-spacing: $letter-spacing-null;
+  --typography-base-medium-paragraph-spacing: $paragraph-spacing-sm;
+  --typography-base-small-font-family: $font-families-standard;
+  --typography-base-small-font-weight: $font-weights-normal;
+  --typography-base-small-line-height: $line-heights-xxsm;
+  --typography-base-small-font-size: $font-sizes-sm;
+  --typography-base-small-letter-spacing: $letter-spacing-null;
+  --typography-base-small-paragraph-spacing: $paragraph-spacing-xxsm;
+  --typography-base-x-small-font-family: $font-families-standard;
+  --typography-base-x-small-font-weight: $font-weights-normal;
+  --typography-base-x-small-line-height: $line-heights-xxsm;
+  --typography-base-x-small-font-size: $font-sizes-xsm;
+  --typography-base-x-small-letter-spacing: $letter-spacing-null;
+  --typography-base-x-small-paragraph-spacing: $paragraph-spacing-xxsm;
+}
