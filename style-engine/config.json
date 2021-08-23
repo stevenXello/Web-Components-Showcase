@@ -6,7 +6,10 @@
       "buildPath": "output/scss/",
       "files": [{
         "destination": "_variables3.scss",
-        "format": "scss/variables"
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
+        }
       }]
     },
     "css": {
@@ -14,7 +17,10 @@
       "buildPath": "output/css/",
       "files": [{
         "destination": "_variables3.css",
-        "format": "css/variables"
+        "format": "css/variables",
+        "options": {
+          "outputReferences": true
+        }
       }]
     }
   }

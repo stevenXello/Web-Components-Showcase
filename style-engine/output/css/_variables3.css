@@ -1,57 +1,58 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Aug 2021 14:47:01 GMT
+ * Generated on Mon, 23 Aug 2021 19:35:27 GMT
  */
 
 :root {
-  --colors-actions-light-mode-primary: #027baf;
-  --colors-text-light-mode-primary: #484848;
-  --colors-text-light-mode-secondary: #737373;
-  --font-families-standard: Proxima Nova;
-  --line-heights-xxlg: 64px;
-  --line-heights-xxsm: 16px;
-  --line-heights-sm: 24px;
-  --line-heights-md: 32px;
-  --font-weights-bold: 700;
-  --font-weights-normal: 400;
-  --font-sizes-xxxlg: 56px;
-  --font-sizes-lg: 24px;
-  --font-sizes-md: 18px;
-  --font-sizes-sm: 14px;
-  --font-sizes-xsm: 12px;
-  --letter-spacing-null: 0;
-  --paragraph-spacing-xxlg: 64px;
-  --paragraph-spacing-md: 32px;
-  --paragraph-spacing-sm: 24px;
   --paragraph-spacing-xxsm: 16px;
-  --typography-page-title-student-font-family: $font-families-standard;
-  --typography-page-title-student-font-weight: $font-weights-bold;
-  --typography-page-title-student-line-height: $line-heights-xxlg;
-  --typography-page-title-student-font-size: $font-sizes-xxxlg;
-  --typography-page-title-student-letter-spacing: $letter-spacing-null;
-  --typography-page-title-student-paragraph-spacing: $paragraph-spacing-xxlg;
-  --typography-base-large-font-family: $font-families-standard;
-  --typography-base-large-font-weight: $font-weights-normal;
-  --typography-base-large-line-height: $line-heights-md;
-  --typography-base-large-font-size: $font-sizes-lg;
-  --typography-base-large-letter-spacing: $letter-spacing-null;
-  --typography-base-large-paragraph-spacing: $paragraph-spacing-md;
-  --typography-base-medium-font-family: $font-families-standard;
-  --typography-base-medium-font-weight: $font-weights-normal;
-  --typography-base-medium-line-height: $line-heights-sm;
-  --typography-base-medium-font-size: $font-sizes-md;
-  --typography-base-medium-letter-spacing: $letter-spacing-null;
-  --typography-base-medium-paragraph-spacing: $paragraph-spacing-sm;
-  --typography-base-small-font-family: $font-families-standard;
-  --typography-base-small-font-weight: $font-weights-normal;
-  --typography-base-small-line-height: $line-heights-xxsm;
-  --typography-base-small-font-size: $font-sizes-sm;
-  --typography-base-small-letter-spacing: $letter-spacing-null;
-  --typography-base-small-paragraph-spacing: $paragraph-spacing-xxsm;
-  --typography-base-x-small-font-family: $font-families-standard;
-  --typography-base-x-small-font-weight: $font-weights-normal;
-  --typography-base-x-small-line-height: $line-heights-xxsm;
-  --typography-base-x-small-font-size: $font-sizes-xsm;
-  --typography-base-x-small-letter-spacing: $letter-spacing-null;
-  --typography-base-x-small-paragraph-spacing: $paragraph-spacing-xxsm;
+  --paragraph-spacing-sm: 24px;
+  --paragraph-spacing-md: 32px;
+  --paragraph-spacing-xxlg: 64px;
+  --letter-spacing-null: 0;
+  --font-sizes-xsm: 12px;
+  --font-sizes-sm: 14px;
+  --font-sizes-md: 18px;
+  --font-sizes-lg: 24px;
+  --font-sizes-xxxlg: 56px;
+  --font-weights-normal: 400;
+  --font-weights-bold: 700;
+  --line-heights-md: 32px;
+  --line-heights-sm: 24px;
+  --line-heights-xxsm: 16px;
+  --line-heights-xxlg: 64px;
+  --font-families-standard: Proxima Nova;
+  --colors-text-light-mode-secondary: #737373;
+  --colors-text-light-mode-primary: #484848;
+  --colors-actions-light-mode-primary: #027baf;
+  --typography-base-test: Proxima Nova, 400, 16px, 12px, 0, 16px; /* This is a variable that is holding the fontFamily, fontWeight, lineHeight, fontSize, letterSpacing, paragraphSpacing in order */
+  --typography-base-x-small-paragraph-spacing: var(--paragraph-spacing-xxsm);
+  --typography-base-x-small-letter-spacing: var(--letter-spacing-null);
+  --typography-base-x-small-font-size: var(--font-sizes-xsm);
+  --typography-base-x-small-line-height: var(--line-heights-xxsm);
+  --typography-base-x-small-font-weight: var(--font-weights-normal);
+  --typography-base-x-small-font-family: var(--font-families-standard);
+  --typography-base-small-paragraph-spacing: var(--paragraph-spacing-xxsm);
+  --typography-base-small-letter-spacing: var(--letter-spacing-null);
+  --typography-base-small-font-size: var(--font-sizes-sm);
+  --typography-base-small-line-height: var(--line-heights-xxsm);
+  --typography-base-small-font-weight: var(--font-weights-normal);
+  --typography-base-small-font-family: var(--font-families-standard);
+  --typography-base-medium-paragraph-spacing: var(--paragraph-spacing-sm);
+  --typography-base-medium-letter-spacing: var(--letter-spacing-null);
+  --typography-base-medium-font-size: var(--font-sizes-md);
+  --typography-base-medium-line-height: var(--line-heights-sm);
+  --typography-base-medium-font-weight: var(--font-weights-normal);
+  --typography-base-medium-font-family: var(--font-families-standard);
+  --typography-base-large-paragraph-spacing: var(--paragraph-spacing-md);
+  --typography-base-large-letter-spacing: var(--letter-spacing-null);
+  --typography-base-large-font-size: var(--font-sizes-lg);
+  --typography-base-large-line-height: var(--line-heights-md);
+  --typography-base-large-font-weight: var(--font-weights-normal);
+  --typography-base-large-font-family: var(--font-families-standard);
+  --typography-page-title-student-paragraph-spacing: var(--paragraph-spacing-xxlg);
+  --typography-page-title-student-letter-spacing: var(--letter-spacing-null);
+  --typography-page-title-student-font-size: var(--font-sizes-xxxlg);
+  --typography-page-title-student-line-height: var(--line-heights-xxlg);
+  --typography-page-title-student-font-weight: var(--font-weights-bold);
+  --typography-page-title-student-font-family: var(--font-families-standard);
 }
