@@ -1,27 +1,31 @@
 {
-  "source": ["input/**/*.json"],
-  "platforms": {
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "output/scss/",
-      "files": [{
-        "destination": "_variables3.scss",
-        "format": "scss/variables",
-        "options": {
-          "outputReferences": true
+    "source": ["input/**/*.json"],
+    "platforms": {
+        "scss": {
+            "transformGroup": "scss",
+            "buildPath": "output/scss/",
+            "files": [
+                {
+                    "destination": "_variables4.scss",
+                    "format": "scss/variables",
+                    "options": {
+                        "outputReferences": true
+                    }
+                }
+            ]
+        },
+        "css": {
+            "transformGroup": "css",
+            "buildPath": "output/css/",
+            "files": [
+                {
+                    "destination": "_variables4.css",
+                    "format": "css/variables",
+                    "options": {
+                        "outputReferences": true
+                    }
+                }
+            ]
         }
-      }]
-    },
-    "css": {
-      "transformGroup": "css",
-      "buildPath": "output/css/",
-      "files": [{
-        "destination": "_variables3.css",
-        "format": "css/variables",
-        "options": {
-          "outputReferences": true
-        }
-      }]
     }
-  }
 }
