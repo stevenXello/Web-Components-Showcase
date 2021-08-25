@@ -1,0 +1,42 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 25 Aug 2021 19:40:46 GMT
+ */
+
+:root {
+  --colors-actions-light-mode-primary: #027baf;
+  --colors-text-light-mode-primary: #484848;
+  --colors-text-light-mode-secondary: #737373;
+  --font-families-standard: Proxima Nova;
+  --line-heights-xxlg: 64px;
+  --line-heights-xxsm: 16px;
+  --line-heights-sm: 24px;
+  --line-heights-md: 32px;
+  --font-weights-bold: 700;
+  --font-weights-normal: 400;
+  --font-sizes-xxxlg: 56px;
+  --font-sizes-lg: 24px;
+  --font-sizes-md: 18px;
+  --font-sizes-sm: 14px;
+  --font-sizes-xsm: 12px;
+  --paragraph-spacing-xxlg: 64px;
+  --paragraph-spacing-md: 32px;
+  --paragraph-spacing-sm: 24px;
+  --paragraph-spacing-xxsm: 16px;
+  --font-base-lg: [object Object];
+  --font-base-md: [object Object];
+  --font-base-sm: [object Object];
+  --font-base-xsm: [object Object];
+  --space-null: 0;
+  --space-xxxsm: 4px;
+  --space-xxxxsm: 2px;
+  --space-xxsm: 8px;
+  --space-xsm: 12px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xlg: 40px;
+  --space-xxlg: 64px;
+  --space-xxxlg: 96px;
+  --font-pagetitle-student: normal normal 700 56px / 64px Proxima Nova;
+}

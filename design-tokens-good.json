@@ -1,0 +1,166 @@
+{
+    "colors": {
+        "Actions": {
+            "Light Mode": {
+                "Primary": {
+                    "value": "#027baf",
+                    "type": "color"
+                }
+            }
+        },
+        "Text": {
+            "Light Mode": {
+                "Primary": {
+                    "value": "#484848",
+                    "type": "color"
+                },
+                "Secondary": {
+                    "value": "#737373",
+                    "type": "color"
+                }
+            }
+        }
+    },
+    "fontFamilies": {
+        "Standard": {
+            "value": "Proxima Nova",
+            "type": "fontFamilies"
+        }
+    },
+    "lineHeights": {
+        "xxlg": {
+            "value": "64px",
+            "type": "lineHeights"
+        },
+        "xxsm": {
+            "value": "16px",
+            "type": "lineHeights"
+        },
+        "sm": {
+            "value": "24px",
+            "type": "lineHeights"
+        },
+        "md": {
+            "value": "32px",
+            "type": "lineHeights"
+        }
+    },
+    "fontWeights": {
+        "Bold": {
+            "value": "700",
+            "type": "fontWeights"
+        },
+        "Normal": {
+            "value": "400",
+            "type": "fontWeights"
+        }
+    },
+    "fontSizes": {
+        "xxxlg": {
+            "value": "56px",
+            "type": "fontSizes"
+        },
+        "lg": {
+            "value": "24px",
+            "type": "fontSizes"
+        },
+        "md": {
+            "value": "18px",
+            "type": "fontSizes"
+        },
+        "sm": {
+            "value": "14px",
+            "type": "fontSizes"
+        },
+        "xsm": {
+            "value": "12px",
+            "type": "fontSizes"
+        }
+    },
+    "paragraphSpacing": {
+        "xxlg": {
+            "value": "64px",
+            "type": "paragraphSpacing"
+        },
+        "md": {
+            "value": "32px",
+            "type": "paragraphSpacing"
+        },
+        "sm": {
+            "value": "24px",
+            "type": "paragraphSpacing"
+        },
+        "xxsm": {
+            "value": "16px",
+            "type": "paragraphSpacing"
+        }
+    },
+    "space-null": {
+        "value": "0",
+        "type": "letterSpacing"
+    },
+    "space-xxxsm": {
+        "value": "4px",
+        "type": "letterSpacing"
+    },
+    "space-xxxxsm": {
+        "value": "2px",
+        "type": "letterSpacing"
+    },
+    "space-xxsm": {
+        "value": "8px",
+        "type": "letterSpacing"
+    },
+    "space-xsm": {
+        "value": "12px",
+        "type": "letterSpacing"
+    },
+    "space-sm": {
+        "value": "16px",
+        "type": "letterSpacing"
+    },
+    "space-md": {
+        "value": "24px",
+        "type": "letterSpacing"
+    },
+    "space-lg": {
+        "value": "32px",
+        "type": "letterSpacing"
+    },
+    "space-xlg": {
+        "value": "40px",
+        "type": "letterSpacing"
+    },
+    "space-xxlg": {
+        "value": "64px",
+        "type": "letterSpacing"
+    },
+    "space-xxxlg": {
+        "value": "96px",
+        "type": "letterSpacing"
+    },
+    "font-pagetitle-student": {
+        "value": "normal normal {fontWeights.Bold.value} {fontSizes.xxxlg.value} / {lineHeights.xxlg.value} {fontFamilies.Standard.value}",
+        "type": "other"
+    },
+    "font": {
+        "Base": {
+            "lg": {
+                "value": "normal normal {fontWeights.Normal.value} {lineHeights.md.value}  {fontSizes.lg.value} {fontFamilies.Standard.value}",
+                "type": "other"
+            },
+            "md": {
+                "value": "normal normal {fontWeights.Normal.value} {lineHeights.sm.value}  {fontSizes.md.value} {fontFamilies.Standard.value}",
+                "type": "other"
+            },
+            "sm": {
+                "value": "normal normal {fontWeights.Normal.value} {lineHeights.xxsm.value}  {fontSizes.sm.value} {fontFamilies.Standard.value}",
+                "type": "other"
+            },
+            "xsm": {
+                "value": "normal normal {fontWeights.Normal.value} {lineHeights.xxsm.value}  {fontSizes.xsm.value} {fontFamilies.Standard.value}",
+                "type": "other"
+            }
+        }
+    }
+}

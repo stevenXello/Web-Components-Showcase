@@ -1,13 +1,15 @@
 const template = document.createElement("template");
 
 template.innerHTML = `
-    <style>
-    h1 {
-      font-family: var(--typography-page-title-student-font-family);
-      font-size: var(  --typography-page-title-student-font-size);
-  }
-    </style>
-   <h1></h1>
+
+<style>
+.page-title-student {
+    font: var(--font-pagetitle-student);
+}
+</style>
+
+
+   <h1 class="page-title-student"></h1>
 `;
 
 class PageTitle extends HTMLElement {
@@ -24,3 +26,10 @@ class PageTitle extends HTMLElement {
 }
 customElements.define("page-title", PageTitle);
 export default PageTitle;
+
+// font-style: normal;
+// font-variant: normal;
+// font-weight: 400;
+// font-size: 36px;
+// line-height: 0;
+// font-family: var(--font-families-standard);
