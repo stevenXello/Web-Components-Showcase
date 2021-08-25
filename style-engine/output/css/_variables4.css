@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 25 Aug 2021 19:56:27 GMT
+ * Generated on Wed, 25 Aug 2021 20:54:19 GMT
  */
 
 :root {
@@ -38,5 +38,5 @@
   --font-base-sm: normal normal var(--font-weights-normal) var(--line-heights-xxsm)  var(--font-sizes-sm) var(--font-families-standard);
   --font-base-md: normal normal var(--font-weights-normal) var(--line-heights-sm)  var(--font-sizes-md) var(--font-families-standard);
   --font-base-lg: normal normal var(--font-weights-normal) var(--line-heights-md)  var(--font-sizes-lg) var(--font-families-standard);
-  --font-pagetitle-student: normal normal var(--font-weights-bold) var(--font-sizes-xxxlg) / var(--line-heights-xxlg) var(--font-families-standard);
+  --font-pagetitle-student-primary: normal normal var(--font-weights-bold) var(--font-sizes-xxxlg) / var(--line-heights-xxlg) var(--font-families-standard);
 }
