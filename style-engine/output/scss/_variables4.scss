@@ -1,4 +1,3 @@
-
 // Do not edit directly
 // Generated on Wed, 25 Aug 2021 19:56:27 GMT
 
@@ -32,8 +31,13 @@ $font-families-standard: Proxima Nova;
 $colors-text-light-mode-secondary: #737373;
 $colors-text-light-mode-primary: #484848;
 $colors-actions-light-mode-primary: #027baf;
-$font-base-xsm: normal normal $font-weights-normal $line-heights-xxsm  $font-sizes-xsm $font-families-standard;
-$font-base-sm: normal normal $font-weights-normal $line-heights-xxsm  $font-sizes-sm $font-families-standard;
-$font-base-md: normal normal $font-weights-normal $line-heights-sm  $font-sizes-md $font-families-standard;
-$font-base-lg: normal normal $font-weights-normal $line-heights-md  $font-sizes-lg $font-families-standard;
-$font-pagetitle-student: normal normal $font-weights-bold $font-sizes-xxxlg / $line-heights-xxlg $font-families-standard;
+$font-base-xsm: normal normal $font-weights-normal $line-heights-xxsm
+    $font-sizes-xsm $font-families-standard;
+$font-base-sm: normal normal $font-weights-normal $line-heights-xxsm
+    $font-sizes-sm $font-families-standard;
+$font-base-md: normal normal $font-weights-normal $line-heights-sm
+    $font-sizes-md $font-families-standard;
+$font-base-lg: normal normal $font-weights-normal $line-heights-md
+    $font-sizes-lg $font-families-standard;
+$font-pagetitle-student: normal normal $font-weights-bold $font-sizes-xxxlg /
+    $line-heights-xxlg $font-families-standard;

@@ -1,0 +1,15 @@
+@import "../styles/design-tokens.scss";
+
+#tooltip {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+button {
+    font-family: $font-families-standard;
+    padding: 12px 16px;
+    border-radius: 80px;
+    color: white;
+    background-color: $colors-actions-light-mode-primary;
+    border: none;
+}
